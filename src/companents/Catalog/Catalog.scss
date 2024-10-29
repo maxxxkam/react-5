@@ -1,0 +1,62 @@
+.catalog{
+
+
+   &__wrapper{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 50px;
+
+   }
+   &__card{
+      // background-color: gray;
+      // aspect-ratio: 4/3;
+      min-height: 500px;
+      backdrop-filter: 30px;
+      border-radius: 30px;
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+      &:hover{
+         div{
+            backdrop-filter: blur(20px);
+         }
+      }
+
+      &:nth-child(1){
+         background-image: url(https://framerusercontent.com/images/QVKFKT3dyGxloXfzzpurVKNMM6M.jpg?scale-down-to=1024);
+      }
+      &:nth-child(2){
+         background-image: url(https://framerusercontent.com/images/AX9PukosNfGVcfXw3YapiYpl9g.jpg?scale-down-to=1024);
+      }
+      &:nth-child(3){
+         background-image: url(https://framerusercontent.com/images/BAXywubxN8sAhfJg3AgGgFI.jpg?scale-down-to=1024);
+      }
+      &:nth-child(4){
+         background-image: url(https://framerusercontent.com/images/3WALBX7nnuG7p85CLjlVmWPDHw.jpg?scale-down-to=1024);
+      }
+      &:nth-child(5){
+         background-image: url(https://framerusercontent.com/images/3WALBX7nnuG7p85CLjlVmWPDHw.jpg?scale-down-to=1024);
+      }
+      &:nth-child(6){
+         background-image: url(https://framerusercontent.com/images/UbS7rWmAwWxjtwM7oaWwRuGo.jpg?scale-down-to=1024);
+      }
+
+      div{
+         padding: 25px;
+         color: #fff;
+         display: flex;
+         justify-content: space-between;
+         height: 100%;
+         transition: 0.3s;
+
+         button{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: none;
+         }
+      }
+   }
+}

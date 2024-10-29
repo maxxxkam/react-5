@@ -1,0 +1,36 @@
+.hero{
+
+
+   &__wrapper{
+      gap: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100dvh;
+
+      h1{
+         // font-size: 52px;
+         font-size: clamp(1.625rem, 0.929rem + 2.86vw, 3.25rem);
+         max-width: 800px;
+         font-weight: 500;
+
+      }
+   }
+
+   &__box{
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      flex-wrap: wrap;
+      P{
+         background-color: #e8e5e480;
+         padding: 8px 14px;
+         border-radius: 30px;
+
+      }
+   }
+
+
+}

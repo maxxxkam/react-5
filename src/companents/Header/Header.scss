@@ -1,0 +1,31 @@
+.nav{
+   background-color: #e8e5e480;
+   display: flex;
+   justify-content: center;
+   gap: 6px;
+   padding: 5px;
+   width: max-content;
+   border-radius: 30px;
+   margin: 0 auto;
+   position: fixed;
+   transform: translateX(-50%);
+   top: 30px;
+   z-index: 10;
+   backdrop-filter: blur(20px);
+   a{
+      color: #000;
+      text-decoration: none;
+      background-color: transparent;
+      padding: 8px 24px;
+      border-radius: 30px;
+      transition: 0.3s;
+      &:hover{
+         background-color: #fff;
+      }
+   }
+}
+
+.header{
+   display: flex;
+   justify-content: center;
+}
