@@ -1,0 +1,11 @@
+.clients__head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    h2{
+        font-size: 40px;
+        font-weight: 500;
+    }
+}
